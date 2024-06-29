@@ -1,0 +1,35 @@
+{
+  "name": "house1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.9",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.10.1",
+    "nodemailer": "^6.9.14",
+    "socket.io": "^4.7.5",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "twilio": "^5.2.1",
+    "typescript": "^5.5.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.17",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/nodemailer": "^6.4.15"
+  }
+}
